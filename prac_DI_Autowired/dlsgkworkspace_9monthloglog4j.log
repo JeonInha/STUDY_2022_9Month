@@ -1,0 +1,304 @@
+[2022-09-21 17:46:42,661] [DEBUG] [AbstractEnvironment.java:114] - Initializing new StandardEnvironment
+[2022-09-21 17:46:42,661] [DEBUG] [MutablePropertySources.java:103] - Adding [systemProperties] PropertySource with lowest search precedence
+[2022-09-21 17:46:42,677] [DEBUG] [MutablePropertySources.java:103] - Adding [systemEnvironment] PropertySource with lowest search precedence
+[2022-09-21 17:46:42,677] [DEBUG] [AbstractEnvironment.java:120] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2022-09-21 17:46:42,708] [INFO ] [ClassPathScanningCandidateComponentProvider.java:210] - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2022-09-21 17:46:42,708] [INFO ] [AbstractApplicationContext.java:495] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6aa8ceb6: startup date [Wed Sep 21 17:46:42 KST 2022]; root of context hierarchy
+[2022-09-21 17:46:42,708] [DEBUG] [AbstractApplicationContext.java:525] - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@6aa8ceb6: org.springframework.beans.factory.support.DefaultListableBeanFactory@71be98f5: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,accountConfig]; root of factory hierarchy
+[2022-09-21 17:46:42,724] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:46:42,724] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:46:42,739] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:46:42,739] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:46:42,739] [DEBUG] [AbstractEnvironment.java:114] - Initializing new StandardEnvironment
+[2022-09-21 17:46:42,739] [DEBUG] [MutablePropertySources.java:103] - Adding [systemProperties] PropertySource with lowest search precedence
+[2022-09-21 17:46:42,739] [DEBUG] [MutablePropertySources.java:103] - Adding [systemEnvironment] PropertySource with lowest search precedence
+[2022-09-21 17:46:42,739] [DEBUG] [AbstractEnvironment.java:120] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2022-09-21 17:46:42,739] [INFO ] [ClassPathScanningCandidateComponentProvider.java:210] - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2022-09-21 17:46:42,755] [DEBUG] [PathMatchingResourcePatternResolver.java:550] - Looking for matching resources in directory tree [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI]
+[2022-09-21 17:46:42,755] [DEBUG] [PathMatchingResourcePatternResolver.java:612] - Searching directory [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI] for files matching pattern [D:/dlsgk/workspace_9month/prac_DI_Autowired/target/classes/prac/DI/**/*.class]
+[2022-09-21 17:46:42,755] [DEBUG] [PathMatchingResourcePatternResolver.java:351] - Resolved location pattern [classpath*:prac/DI/**/*.class] to resources [file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\Account.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountConfig.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountDao.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\LoggerAOP.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\LoginService.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\Main.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\MainLogic.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\SignUpService.class]]
+[2022-09-21 17:46:42,755] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountConfig.class]
+[2022-09-21 17:46:42,755] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountDao.class]
+[2022-09-21 17:46:42,770] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\LoginService.class]
+[2022-09-21 17:46:42,770] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\MainLogic.class]
+[2022-09-21 17:46:42,770] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\SignUpService.class]
+[2022-09-21 17:46:42,770] [DEBUG] [ConfigurationClassBeanDefinitionReader.java:270] - Registering bean definition for @Bean method prac.DI.AccountConfig.scanner()
+[2022-09-21 17:46:42,817] [DEBUG] [ConfigurationClassEnhancer.java:111] - Successfully enhanced prac.DI.AccountConfig; enhanced class name is: prac.DI.AccountConfig$$EnhancerByCGLIB$$90a16b2d
+[2022-09-21 17:46:42,817] [DEBUG] [ConfigurationClassPostProcessor.java:339] - Replacing bean definition 'accountConfig' existing class name 'prac.DI.AccountConfig' with enhanced class name 'prac.DI.AccountConfig$$EnhancerByCGLIB$$90a16b2d'
+[2022-09-21 17:46:42,817] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:46:42,817] [INFO ] [AutowiredAnnotationBeanPostProcessor.java:139] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:46:42,817] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:46:42,817] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:46:42,817] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:46:42,817] [DEBUG] [AbstractApplicationContext.java:794] - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@2e3fc542]
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractApplicationContext.java:818] - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6eceb130]
+[2022-09-21 17:46:42,833] [INFO ] [DefaultListableBeanFactory.java:557] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@71be98f5: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,accountConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,accountDao,loginService,mainLogic,signUpService,scanner]; root of factory hierarchy
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:46:42,833] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'accountConfig'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'accountConfig'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'accountConfig' to allow for resolving potential circular references
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'accountConfig'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:46:42,833] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'accountDao'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'accountDao'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'accountDao' to allow for resolving potential circular references
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'accountDao'
+[2022-09-21 17:46:42,833] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'loginService'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'loginService'
+[2022-09-21 17:46:42,833] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.LoginService]: AutowiredFieldElement for prac.DI.AccountDao prac.DI.LoginService.accountDao
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'loginService' to allow for resolving potential circular references
+[2022-09-21 17:46:42,833] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'loginService': AutowiredFieldElement for prac.DI.AccountDao prac.DI.LoginService.accountDao
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'accountDao'
+[2022-09-21 17:46:42,833] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'loginService' to bean named 'accountDao'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'loginService'
+[2022-09-21 17:46:42,833] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'mainLogic'
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'mainLogic'
+[2022-09-21 17:46:42,833] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.MainLogic]: AutowiredFieldElement for prac.DI.LoginService prac.DI.MainLogic.loginService
+[2022-09-21 17:46:42,833] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.MainLogic]: AutowiredFieldElement for prac.DI.SignUpService prac.DI.MainLogic.signUpService
+[2022-09-21 17:46:42,833] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.MainLogic]: AutowiredFieldElement for java.util.Scanner prac.DI.MainLogic.scanner
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'mainLogic' to allow for resolving potential circular references
+[2022-09-21 17:46:42,833] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'mainLogic': AutowiredFieldElement for prac.DI.LoginService prac.DI.MainLogic.loginService
+[2022-09-21 17:46:42,833] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'loginService'
+[2022-09-21 17:46:42,833] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'mainLogic' to bean named 'loginService'
+[2022-09-21 17:46:42,833] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'mainLogic': AutowiredFieldElement for prac.DI.SignUpService prac.DI.MainLogic.signUpService
+[2022-09-21 17:46:42,848] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'signUpService'
+[2022-09-21 17:46:42,848] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'signUpService'
+[2022-09-21 17:46:42,848] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.SignUpService]: AutowiredFieldElement for prac.DI.AccountDao prac.DI.SignUpService.accountDao
+[2022-09-21 17:46:42,848] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'signUpService' to allow for resolving potential circular references
+[2022-09-21 17:46:42,848] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'signUpService': AutowiredFieldElement for prac.DI.AccountDao prac.DI.SignUpService.accountDao
+[2022-09-21 17:46:42,848] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'accountDao'
+[2022-09-21 17:46:42,848] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'signUpService' to bean named 'accountDao'
+[2022-09-21 17:46:42,848] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'signUpService'
+[2022-09-21 17:46:42,848] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'mainLogic' to bean named 'signUpService'
+[2022-09-21 17:46:42,848] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'mainLogic': AutowiredFieldElement for java.util.Scanner prac.DI.MainLogic.scanner
+[2022-09-21 17:46:42,848] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'scanner'
+[2022-09-21 17:46:42,848] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'scanner'
+[2022-09-21 17:46:42,848] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'accountConfig'
+[2022-09-21 17:46:42,848] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'scanner' to allow for resolving potential circular references
+[2022-09-21 17:46:42,864] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'scanner'
+[2022-09-21 17:46:42,864] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'mainLogic' to bean named 'scanner'
+[2022-09-21 17:46:42,864] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'mainLogic'
+[2022-09-21 17:46:42,864] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'signUpService'
+[2022-09-21 17:46:42,864] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'scanner'
+[2022-09-21 17:46:42,864] [DEBUG] [AbstractApplicationContext.java:845] - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1442d7b5]
+[2022-09-21 17:46:42,864] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'lifecycleProcessor'
+[2022-09-21 17:46:42,864] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'mainLogic'
+[2022-09-21 17:46:42,864] [INFO ] [LoggerAOP.java:11] - logLog
+[2022-09-21 17:47:29,428] [DEBUG] [AbstractEnvironment.java:114] - Initializing new StandardEnvironment
+[2022-09-21 17:47:29,444] [DEBUG] [MutablePropertySources.java:103] - Adding [systemProperties] PropertySource with lowest search precedence
+[2022-09-21 17:47:29,444] [DEBUG] [MutablePropertySources.java:103] - Adding [systemEnvironment] PropertySource with lowest search precedence
+[2022-09-21 17:47:29,444] [DEBUG] [AbstractEnvironment.java:120] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2022-09-21 17:47:29,475] [INFO ] [ClassPathScanningCandidateComponentProvider.java:210] - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2022-09-21 17:47:29,475] [INFO ] [AbstractApplicationContext.java:495] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6aa8ceb6: startup date [Wed Sep 21 17:47:29 KST 2022]; root of context hierarchy
+[2022-09-21 17:47:29,475] [DEBUG] [AbstractApplicationContext.java:525] - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@6aa8ceb6: org.springframework.beans.factory.support.DefaultListableBeanFactory@71be98f5: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,accountConfig]; root of factory hierarchy
+[2022-09-21 17:47:29,490] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:47:29,490] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:47:29,506] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:47:29,506] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:47:29,506] [DEBUG] [AbstractEnvironment.java:114] - Initializing new StandardEnvironment
+[2022-09-21 17:47:29,506] [DEBUG] [MutablePropertySources.java:103] - Adding [systemProperties] PropertySource with lowest search precedence
+[2022-09-21 17:47:29,506] [DEBUG] [MutablePropertySources.java:103] - Adding [systemEnvironment] PropertySource with lowest search precedence
+[2022-09-21 17:47:29,506] [DEBUG] [AbstractEnvironment.java:120] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2022-09-21 17:47:29,506] [INFO ] [ClassPathScanningCandidateComponentProvider.java:210] - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2022-09-21 17:47:29,506] [DEBUG] [PathMatchingResourcePatternResolver.java:550] - Looking for matching resources in directory tree [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI]
+[2022-09-21 17:47:29,506] [DEBUG] [PathMatchingResourcePatternResolver.java:612] - Searching directory [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI] for files matching pattern [D:/dlsgk/workspace_9month/prac_DI_Autowired/target/classes/prac/DI/**/*.class]
+[2022-09-21 17:47:29,522] [DEBUG] [PathMatchingResourcePatternResolver.java:351] - Resolved location pattern [classpath*:prac/DI/**/*.class] to resources [file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\Account.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountConfig.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountDao.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\LoggerAOP.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\LoginService.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\Main.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\MainLogic.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\SignUpService.class]]
+[2022-09-21 17:47:29,522] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountConfig.class]
+[2022-09-21 17:47:29,522] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountDao.class]
+[2022-09-21 17:47:29,522] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\LoginService.class]
+[2022-09-21 17:47:29,522] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\MainLogic.class]
+[2022-09-21 17:47:29,522] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\SignUpService.class]
+[2022-09-21 17:47:29,537] [DEBUG] [ConfigurationClassBeanDefinitionReader.java:270] - Registering bean definition for @Bean method prac.DI.AccountConfig.scanner()
+[2022-09-21 17:47:29,584] [DEBUG] [ConfigurationClassEnhancer.java:111] - Successfully enhanced prac.DI.AccountConfig; enhanced class name is: prac.DI.AccountConfig$$EnhancerByCGLIB$$90a16b2d
+[2022-09-21 17:47:29,584] [DEBUG] [ConfigurationClassPostProcessor.java:339] - Replacing bean definition 'accountConfig' existing class name 'prac.DI.AccountConfig' with enhanced class name 'prac.DI.AccountConfig$$EnhancerByCGLIB$$90a16b2d'
+[2022-09-21 17:47:29,584] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:47:29,584] [INFO ] [AutowiredAnnotationBeanPostProcessor.java:139] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractApplicationContext.java:794] - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@2e3fc542]
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractApplicationContext.java:818] - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6eceb130]
+[2022-09-21 17:47:29,584] [INFO ] [DefaultListableBeanFactory.java:557] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@71be98f5: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,accountConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,accountDao,loginService,mainLogic,signUpService,scanner]; root of factory hierarchy
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:47:29,584] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'accountConfig'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'accountConfig'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'accountConfig' to allow for resolving potential circular references
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'accountConfig'
+[2022-09-21 17:47:29,584] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:47:29,584] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'accountDao'
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'accountDao'
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'accountDao' to allow for resolving potential circular references
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'accountDao'
+[2022-09-21 17:47:29,600] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'loginService'
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'loginService'
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.LoginService]: AutowiredFieldElement for prac.DI.AccountDao prac.DI.LoginService.accountDao
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'loginService' to allow for resolving potential circular references
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'loginService': AutowiredFieldElement for prac.DI.AccountDao prac.DI.LoginService.accountDao
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'accountDao'
+[2022-09-21 17:47:29,600] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'loginService' to bean named 'accountDao'
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'loginService'
+[2022-09-21 17:47:29,600] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'mainLogic'
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'mainLogic'
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.MainLogic]: AutowiredFieldElement for prac.DI.LoginService prac.DI.MainLogic.loginService
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.MainLogic]: AutowiredFieldElement for prac.DI.SignUpService prac.DI.MainLogic.signUpService
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.MainLogic]: AutowiredFieldElement for java.util.Scanner prac.DI.MainLogic.scanner
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'mainLogic' to allow for resolving potential circular references
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'mainLogic': AutowiredFieldElement for prac.DI.LoginService prac.DI.MainLogic.loginService
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'loginService'
+[2022-09-21 17:47:29,600] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'mainLogic' to bean named 'loginService'
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'mainLogic': AutowiredFieldElement for prac.DI.SignUpService prac.DI.MainLogic.signUpService
+[2022-09-21 17:47:29,600] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'signUpService'
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'signUpService'
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.SignUpService]: AutowiredFieldElement for prac.DI.AccountDao prac.DI.SignUpService.accountDao
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'signUpService' to allow for resolving potential circular references
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'signUpService': AutowiredFieldElement for prac.DI.AccountDao prac.DI.SignUpService.accountDao
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'accountDao'
+[2022-09-21 17:47:29,600] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'signUpService' to bean named 'accountDao'
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'signUpService'
+[2022-09-21 17:47:29,600] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'mainLogic' to bean named 'signUpService'
+[2022-09-21 17:47:29,600] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'mainLogic': AutowiredFieldElement for java.util.Scanner prac.DI.MainLogic.scanner
+[2022-09-21 17:47:29,600] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'scanner'
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'scanner'
+[2022-09-21 17:47:29,600] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'accountConfig'
+[2022-09-21 17:47:29,615] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'scanner' to allow for resolving potential circular references
+[2022-09-21 17:47:29,615] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'scanner'
+[2022-09-21 17:47:29,615] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'mainLogic' to bean named 'scanner'
+[2022-09-21 17:47:29,615] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'mainLogic'
+[2022-09-21 17:47:29,615] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'signUpService'
+[2022-09-21 17:47:29,615] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'scanner'
+[2022-09-21 17:47:29,615] [DEBUG] [AbstractApplicationContext.java:845] - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1442d7b5]
+[2022-09-21 17:47:29,615] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'lifecycleProcessor'
+[2022-09-21 17:47:29,615] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'mainLogic'
+[2022-09-21 17:47:29,615] [INFO ] [LoggerAOP.java:11] - logLog
+[2022-09-21 17:47:48,235] [DEBUG] [AbstractEnvironment.java:114] - Initializing new StandardEnvironment
+[2022-09-21 17:47:48,251] [DEBUG] [MutablePropertySources.java:103] - Adding [systemProperties] PropertySource with lowest search precedence
+[2022-09-21 17:47:48,251] [DEBUG] [MutablePropertySources.java:103] - Adding [systemEnvironment] PropertySource with lowest search precedence
+[2022-09-21 17:47:48,251] [DEBUG] [AbstractEnvironment.java:120] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2022-09-21 17:47:48,282] [INFO ] [ClassPathScanningCandidateComponentProvider.java:210] - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2022-09-21 17:47:48,297] [INFO ] [AbstractApplicationContext.java:495] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ae40994: startup date [Wed Sep 21 17:47:48 KST 2022]; root of context hierarchy
+[2022-09-21 17:47:48,297] [DEBUG] [AbstractApplicationContext.java:525] - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@6ae40994: org.springframework.beans.factory.support.DefaultListableBeanFactory@4411d970: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,accountConfig]; root of factory hierarchy
+[2022-09-21 17:47:48,297] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:47:48,297] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:47:48,313] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:47:48,313] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:47:48,313] [DEBUG] [AbstractEnvironment.java:114] - Initializing new StandardEnvironment
+[2022-09-21 17:47:48,313] [DEBUG] [MutablePropertySources.java:103] - Adding [systemProperties] PropertySource with lowest search precedence
+[2022-09-21 17:47:48,313] [DEBUG] [MutablePropertySources.java:103] - Adding [systemEnvironment] PropertySource with lowest search precedence
+[2022-09-21 17:47:48,313] [DEBUG] [AbstractEnvironment.java:120] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2022-09-21 17:47:48,313] [INFO ] [ClassPathScanningCandidateComponentProvider.java:210] - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[2022-09-21 17:47:48,313] [DEBUG] [PathMatchingResourcePatternResolver.java:550] - Looking for matching resources in directory tree [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI]
+[2022-09-21 17:47:48,313] [DEBUG] [PathMatchingResourcePatternResolver.java:612] - Searching directory [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI] for files matching pattern [D:/dlsgk/workspace_9month/prac_DI_Autowired/target/classes/prac/DI/**/*.class]
+[2022-09-21 17:47:48,329] [DEBUG] [PathMatchingResourcePatternResolver.java:351] - Resolved location pattern [classpath*:prac/DI/**/*.class] to resources [file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\Account.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountConfig.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountDao.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\LoggerAOP.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\LoginService.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\Main.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\MainLogic.class], file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\SignUpService.class]]
+[2022-09-21 17:47:48,329] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountConfig.class]
+[2022-09-21 17:47:48,329] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\AccountDao.class]
+[2022-09-21 17:47:48,329] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\LoginService.class]
+[2022-09-21 17:47:48,329] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\MainLogic.class]
+[2022-09-21 17:47:48,329] [DEBUG] [ClassPathScanningCandidateComponentProvider.java:244] - Identified candidate component class: file [D:\dlsgk\workspace_9month\prac_DI_Autowired\target\classes\prac\DI\SignUpService.class]
+[2022-09-21 17:47:48,344] [DEBUG] [ConfigurationClassBeanDefinitionReader.java:270] - Registering bean definition for @Bean method prac.DI.AccountConfig.scanner()
+[2022-09-21 17:47:48,391] [DEBUG] [ConfigurationClassEnhancer.java:111] - Successfully enhanced prac.DI.AccountConfig; enhanced class name is: prac.DI.AccountConfig$$EnhancerByCGLIB$$662213e4
+[2022-09-21 17:47:48,391] [DEBUG] [ConfigurationClassPostProcessor.java:339] - Replacing bean definition 'accountConfig' existing class name 'prac.DI.AccountConfig' with enhanced class name 'prac.DI.AccountConfig$$EnhancerByCGLIB$$662213e4'
+[2022-09-21 17:47:48,391] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:47:48,391] [INFO ] [AutowiredAnnotationBeanPostProcessor.java:139] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractApplicationContext.java:794] - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@3578436e]
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractApplicationContext.java:818] - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@481a15ff]
+[2022-09-21 17:47:48,391] [INFO ] [DefaultListableBeanFactory.java:557] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4411d970: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,accountConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,accountDao,loginService,mainLogic,signUpService,scanner]; root of factory hierarchy
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-09-21 17:47:48,391] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'accountConfig'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'accountConfig'
+[2022-09-21 17:47:48,391] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'accountConfig' to allow for resolving potential circular references
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'accountConfig'
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+[2022-09-21 17:47:48,407] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'accountDao'
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'accountDao'
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'accountDao' to allow for resolving potential circular references
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'accountDao'
+[2022-09-21 17:47:48,407] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'loginService'
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'loginService'
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.LoginService]: AutowiredFieldElement for prac.DI.AccountDao prac.DI.LoginService.accountDao
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'loginService' to allow for resolving potential circular references
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'loginService': AutowiredFieldElement for prac.DI.AccountDao prac.DI.LoginService.accountDao
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'accountDao'
+[2022-09-21 17:47:48,407] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'loginService' to bean named 'accountDao'
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'loginService'
+[2022-09-21 17:47:48,407] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'mainLogic'
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'mainLogic'
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.MainLogic]: AutowiredFieldElement for prac.DI.LoginService prac.DI.MainLogic.loginService
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.MainLogic]: AutowiredFieldElement for prac.DI.SignUpService prac.DI.MainLogic.signUpService
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.MainLogic]: AutowiredFieldElement for java.util.Scanner prac.DI.MainLogic.scanner
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'mainLogic' to allow for resolving potential circular references
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'mainLogic': AutowiredFieldElement for prac.DI.LoginService prac.DI.MainLogic.loginService
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'loginService'
+[2022-09-21 17:47:48,407] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'mainLogic' to bean named 'loginService'
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'mainLogic': AutowiredFieldElement for prac.DI.SignUpService prac.DI.MainLogic.signUpService
+[2022-09-21 17:47:48,407] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'signUpService'
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'signUpService'
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:60] - Found injected element on class [prac.DI.SignUpService]: AutowiredFieldElement for prac.DI.AccountDao prac.DI.SignUpService.accountDao
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'signUpService' to allow for resolving potential circular references
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'signUpService': AutowiredFieldElement for prac.DI.AccountDao prac.DI.SignUpService.accountDao
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'accountDao'
+[2022-09-21 17:47:48,407] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'signUpService' to bean named 'accountDao'
+[2022-09-21 17:47:48,407] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'signUpService'
+[2022-09-21 17:47:48,407] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'mainLogic' to bean named 'signUpService'
+[2022-09-21 17:47:48,407] [DEBUG] [InjectionMetadata.java:85] - Processing injected method of bean 'mainLogic': AutowiredFieldElement for java.util.Scanner prac.DI.MainLogic.scanner
+[2022-09-21 17:47:48,422] [DEBUG] [DefaultSingletonBeanRegistry.java:217] - Creating shared instance of singleton bean 'scanner'
+[2022-09-21 17:47:48,422] [DEBUG] [AbstractAutowireCapableBeanFactory.java:430] - Creating instance of bean 'scanner'
+[2022-09-21 17:47:48,422] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'accountConfig'
+[2022-09-21 17:47:48,422] [DEBUG] [AbstractAutowireCapableBeanFactory.java:504] - Eagerly caching bean 'scanner' to allow for resolving potential circular references
+[2022-09-21 17:47:48,422] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'scanner'
+[2022-09-21 17:47:48,422] [DEBUG] [AutowiredAnnotationBeanPostProcessor.java:424] - Autowiring by type from bean name 'mainLogic' to bean named 'scanner'
+[2022-09-21 17:47:48,422] [DEBUG] [AbstractAutowireCapableBeanFactory.java:458] - Finished creating instance of bean 'mainLogic'
+[2022-09-21 17:47:48,422] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'signUpService'
+[2022-09-21 17:47:48,422] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'scanner'
+[2022-09-21 17:47:48,422] [DEBUG] [AbstractApplicationContext.java:845] - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@45afc369]
+[2022-09-21 17:47:48,438] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'lifecycleProcessor'
+[2022-09-21 17:47:48,438] [DEBUG] [AbstractBeanFactory.java:245] - Returning cached instance of singleton bean 'mainLogic'
+[2022-09-21 17:47:48,438] [INFO ] [LoggerAOP.java:11] - logLog
+[2022-09-21 17:47:58,625] [INFO ] [LoggerAOP.java:11] - logLog
