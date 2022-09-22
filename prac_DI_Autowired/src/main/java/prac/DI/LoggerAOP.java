@@ -28,7 +28,6 @@ public class LoggerAOP {
 		try {
 
 			result = joinPoint.proceed();
-			System.out.println("결과: " + result);
 			return result;
 
 		} finally {
