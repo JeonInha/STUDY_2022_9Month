@@ -32,9 +32,9 @@ public class LoggerAOP {
 
 		} finally {
 			if (result instanceof Boolean) {
-				LOG.info("logLog: 동작 성공");
+				LOG.info("logLog: "+name+"동작 성공");
 			} else {
-				LOG.info("logLog: 동작 실패");
+				LOG.info("logLog: "+name+" 동작 실패");
 			}
 		}
 	}
